@@ -9,3 +9,12 @@ Also some libs:
 ```shell
 pip3 install pynvim sqlparse
 ```
+
+# Debug
+```vimscript
+" Info about command definition
+:command FormatSql
+
+# Update the plugins
+UpdateRemotePlugins
+```

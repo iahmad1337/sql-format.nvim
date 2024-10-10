@@ -14,7 +14,7 @@ def format_sql_script(text_io: io.TextIOBase) -> str:
         sql_script,
         encoding="utf-8",
         keyword_case="upper",
-        identifier_case="lower",
+        identifier_case=None,  # we don't want to change the case of names
         output_format="sql",
         reindent=True,
         space_around_operators=True,
